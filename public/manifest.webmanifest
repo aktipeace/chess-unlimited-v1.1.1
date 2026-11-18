@@ -1,0 +1,51 @@
+{
+  "name": "Chess Unlimited",
+  "short_name": "Chess Unlimited",
+  "description": "Ruang kerja catur pribadi: analisis dengan Stockfish, review permainan, pembukaan, dan latihan taktik — semuanya lokal.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B0F0E",
+  "theme_color": "#0B0F0E",
+  "lang": "id",
+  "categories": [
+    "games",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analysis Studio",
+      "url": "/analysis"
+    },
+    {
+      "name": "Game Review",
+      "url": "/review"
+    },
+    {
+      "name": "Training Center",
+      "url": "/training"
+    }
+  ]
+}

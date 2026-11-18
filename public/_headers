@@ -1,0 +1,6 @@
+# Netlify / Cloudflare Pages: cross-origin isolation lets the multi-thread Stockfish build use SharedArrayBuffer.
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+/sw.js
+  Cache-Control: no-cache
